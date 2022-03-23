@@ -27,7 +27,7 @@ exports.calculate = function(req, res) {
 
   if (! operation) {
     throw new Error("Invalid operation: " + req.query.operation);
-  } 
+  }
 
   // Validate operands
 
